@@ -40,13 +40,16 @@ console.log(divide)
 
 // +=
 var x = 10;
-x = x;
+x += x;
 console.log(x)
 // or ||
 let e = undefined;
-e ||= 9;
-console.log(e)
+ef = 9;
+console.log(e ||ef)
+let first = 17;
+second = 8;
+console.log(first || second)
 // and &&
-let f = 11;
-f &= 18;
-console.log(f)  
+let somename = 11;
+othename = 20;
+console.log(somename && othename)  
