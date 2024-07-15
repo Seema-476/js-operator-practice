@@ -1,9 +1,7 @@
 // addition + 
 var a = 5;
 var b = 4;
-var x = a + b;
-
-console.log(x)
+console.log(a+b)
 // subtract -
 const y = 10;
 const z = 4;
@@ -32,10 +30,23 @@ console.log(divide)
 // increment
 var division = 6;
 var divisionvalue = 3;
-var divide = division + divisionvalue+division;
+var divide  = division + divisionvalue;
 console.log(divide)
 // decrement
 var division = 6;
 var divisionvalue = 3;
 var divide = division - divisionvalue - division;
 console.log(divide)
+
+// +=
+var x = 10;
+x = x;
+console.log(x)
+// or ||
+let e = undefined;
+e ||= 9;
+console.log(e)
+// and &&
+let f = 11;
+f &= 18;
+console.log(f)  
